@@ -537,19 +537,19 @@ textarea {
 
 #linkedin-icone,
 #instagram-icone,
-#email-icone,
+#github-icone,
 #linkedin-icone-contato,
 #instagram-icone-contato,
-#email-icone-contato {
+#github-icone-contato {
   transition: 0.3s;
 }
 
 #linkedin-icone:hover,
 #instagram-icone:hover,
-#email-icone:hover,
+#github-icone:hover,
 #linkedin-icone-contato:hover,
 #instagram-icone-contato:hover,
-#email-icone-contato:hover {
+#github-icone-contato:hover {
   transform: scale(1.1);
 }
 
