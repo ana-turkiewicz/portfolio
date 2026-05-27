@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-principal">
+        <h1 class="header-logo">Portfolio</h1>
+
+        <input type="checkbox" id="menu-toggle" hidden />
+
+        <label for="menu-toggle" class="header-menu-hamburguer">
+          <div class="header-menu-hamburguer-linha"></div>
+          <div class="header-menu-hamburguer-linha"></div>
+          <div class="header-menu-hamburguer-linha"></div>
+        </label>
+
+        <div class="header-menu">
+          <nav class="header-menu-links">
+            <a href="#sobre" class="links-menu-header">Sobre</a>
+            <a href="#projetos" class="links-menu-header">Projetos</a>
+            <a href="#servicos" class="links-menu-header">Serviços</a>
+            <a href="#feedbacks" class="links-menu-header">Depoimentos</a>
+            <a href="#contato" class="links-menu-header">Contato</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="conteudo-principal" id="sobre">
+        <div class="conteudo-principal-foto">
+          <img
+            src="./images/profile.jpeg"
+            alt="Minha foto de perfil"
+            class="foto-conteudo-principal"
+          />
+        </div>
+        <div class="conteudo-principal-bio">
+          <h2 class="conteudo-principal-bio-subtitulo">
+            Olá, eu sou
+            <span class="conteudo-principal-bio-subtitulo-gradiente"
+              >Desenvolvedora Full Stack</span
+            >
+          </h2>
+          <p class="conteudo-principal-bio-paragrafo">
+            Com mais de 1 mês de experiência em desenvolvimento web, transformo
+            ideias em soluções digitais inovadoras. Especializado em criar
+            experiências excepcionais que geram resultados reais para empresas e
+            startups.
+          </p>
+        </div>
+        <div class="conteudo-principal-direcionamento">
+          <a class="conteudo-principal-direcionamento-button" href="#contato">
+            Fale comigo
+          </a>
+          <a class="conteudo-principal-direcionamento-button" href="#servicos">
+            Ver trabalhos
+          </a>
+        </div>
+        <div class="conteudo-principal-redes">
+          <nav>
+            <a
+              href="https://www.linkedin.com/in/ana-karoline-turkiewicz-5a5372409"
+              target="_blank"
+            >
+              <img
+                src="./images/linkedin_icon.png"
+                alt="Linkedin ícone"
+                id="linkedin-icone"
+              />
+            </a>
+            <a href="https://github.com/ana-turkiewicz" target="_blank">
+              <img
+                src="./images/github_icon.png"
+                alt="Github ícone"
+                id="github-icone"
+              />
+            </a>
+            <a href="https://www.instagram.com/trkz.anna/" target="_blank">
+              <img
+                src="./images/instagram_icon.png"
+                alt="Instagram ícone"
+                id="instagram-icone"
+              />
+            </a>
+          </nav>
+        </div>
+      </section>
+
+      <section class="conteudo-dados">
+        <div class="conteudo-dados-projetos">
+          <h2>0</h2>
+          <span>Projetos Concluídos</span>
+        </div>
+        <div class="conteudo-dados-clientes">
+          <h2>0</h2>
+          <span>Clientes Satisfeitos</span>
+        </div>
+        <div class="conteudo-dados-experiencia">
+          <h2>1</h2>
+          <span>Mês de Experiência</span>
+        </div>
+        <div class="conteudo-dados-feedback">
+          <h2>100%</h2>
+          <span>Taxa de Satisfação</span>
+        </div>
+      </section>
+
+      <section class="conteudo-servicos" id="servicos">
+        <div class="conteudo-servicos-header">
+          <h2>Serviços & Habilidades</h2>
+          <p>Como posso ajudar seu projeto a crescer</p>
+        </div>
+
+        <div class="conteudo-servicos-main">
+          <div class="conteudo-servicos-main-container">
+            <div class="conteudo-servicos-main-container-imagem">
+              <img
+                src="./images/tag_icon.png"
+                alt="Tag de programação"
+                class="conteudo-servicos-main-container-imagem-icone"
+              />
+            </div>
+
+            <div class="conteudo-servicos-main-container-info">
+              <h3>Desenvolvimento Web</h3>
+
+              <p>
+                Criação de aplicações web modernas e responsivas usando React,
+                Vue, Next.js e Node.js.
+              </p>
+
+              <div class="conteudo-servicos-main-container-info-check">
+                <img src="./images/check_icon.png" alt="check icone" />
+                <span>Frontend & Backend</span>
+              </div>
+
+              <div class="conteudo-servicos-main-container-info-check">
+                <img src="./images/check_icon.png" alt="check icone" />
+                <span>APIs RESTful</span>
+              </div>
+
+              <div class="conteudo-servicos-main-container-info-check">
+                <img src="./images/check_icon.png" alt="check icone" />
+                <span>Banco de Dados</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="conteudo-servicos-main-container">
+            <div class="conteudo-servicos-main-container-imagem">
+              <img
+                src="./images/phone_icon.png"
+                alt="Celular ícone"
+                class="conteudo-servicos-main-container-imagem-icone"
+              />
+            </div>
+
+            <div class="conteudo-servicos-main-container-info">
+              <h3>Apps Mobile</h3>
+
+              <p>
+                Desenvolvimento de aplicativos nativos e híbridos para iOS e
+                Android.
+              </p>
+
+              <div class="conteudo-servicos-main-container-info-check">
+                <img src="./images/check_icon.png" alt="check icone" />
+                <span>React Native</span>
+              </div>
+
+              <div class="conteudo-servicos-main-container-info-check">
+                <img src="./images/check_icon.png" alt="check icone" />
+                <span>Flutter</span>
+              </div>
+
+              <div class="conteudo-servicos-main-container-info-check">
+                <img src="./images/check_icon.png" alt="check icone" />
+                <span>PWA</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="conteudo-servicos-main-container">
+            <div class="conteudo-servicos-main-container-imagem">
+              <img
+                src="./images/design_icon.png"
+                alt="Design ícone"
+                class="conteudo-servicos-main-container-imagem-icone"
+              />
+            </div>
+
+            <div class="conteudo-servicos-main-container-info">
+              <h3>UI/UX Design</h3>
+
+              <p>
+                Design de interfaces intuitivas focadas na experiência do
+                usuário.
+              </p>
+
+              <div class="conteudo-servicos-main-container-info-check">
+                <img src="./images/check_icon.png" alt="check icone" />
+                <span>Figma & Adobe XD</span>
+              </div>
+
+              <div class="conteudo-servicos-main-container-info-check">
+                <img src="./images/check_icon.png" alt="check icone" />
+                <span>Prototipagem</span>
+              </div>
+
+              <div class="conteudo-servicos-main-container-info-check">
+                <img src="./images/check_icon.png" alt="check icone" />
+                <span>Design Systems</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="conteudo-projetos" id="projetos">
+        <div class="conteudo-projetos-header">
+          <h2>Futuros Projetos</h2>
+          <p>Alguns trabalhos em desenvolvimento</p>
+        </div>
+
+        <div class="conteudo-projetos-main">
+          <div class="conteudo-projetos-main-container">
+            <div class="conteudo-projetos-main-container-imagem">
+              <img
+                src="https://images.unsplash.com/photo-1604074131228-9d48b811bd80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzc5NDk2NzQ3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="E-commerce Moderno"
+                class="conteudo-projetos-main-container-imagem"
+              />
+            </div>
+            <div class="conteudo-projetos-main-container-info">
+              <h3>E-commerce Moderno</h3>
+              <p>
+                Plataforma completa de vendas online com sistema de pagamento
+                integrado.
+              </p>
+
+              <div class="conteudo-projetos-main-container-info-tecnologias">
+                <span class="info-tecnologias">React</span>
+                <span class="info-tecnologias">Node.js</span>
+                <span class="info-tecnologias">Stripe</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="conteudo-projetos-main-container">
+            <div class="conteudo-projetos-main-container-imagem">
+              <img
+                src="https://images.unsplash.com/photo-1707836885254-79b6e3d7b18d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHx3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzc5NDk2NzQ3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="App de Produtividade"
+                class="conteudo-projetos-main-container-imagem"
+              />
+            </div>
+            <div class="conteudo-projetos-main-container-info">
+              <h3>App de Produtividade</h3>
+              <p>
+                Aplicativo móvel para gestão de tarefas e projetos em equipe.
+              </p>
+
+              <div class="conteudo-projetos-main-container-info-tecnologias">
+                <span class="info-tecnologias">React Native</span>
+                <span class="info-tecnologias">Firebase</span>
+                <span class="info-tecnologias">UX/UI</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="conteudo-projetos-main-container">
+            <div class="conteudo-projetos-main-container-imagem">
+              <img
+                src="https://images.unsplash.com/photo-1519222970733-f546218fa6d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHx3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzc5NDk2NzQ3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Dashboard Analítico"
+                class="conteudo-projetos-main-container-imagem"
+              />
+            </div>
+            <div class="conteudo-projetos-main-container-info">
+              <h3>Dashboard Analítico</h3>
+              <p>Painel de controle com visualização de dados em tempo real.</p>
+
+              <div class="conteudo-projetos-main-container-info-tecnologias">
+                <span class="info-tecnologias">Vue.js</span>
+                <span class="info-tecnologias">D3.js</span>
+                <span class="info-tecnologias">API</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="conteudo-projetos-main-container">
+            <div class="conteudo-projetos-main-container-imagem">
+              <img
+                src="https://images.unsplash.com/photo-1626785774573-4b799315345d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxjcmVhdGl2ZSUyMHdvcmtzcGFjZSUyMGRlc2lnbnxlbnwxfHx8fDE3Nzk0OTY3NDd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Plataforma de Ensino de Produtividade"
+                class="conteudo-projetos-main-container-imagem"
+              />
+            </div>
+            <div class="conteudo-projetos-main-container-info">
+              <h3>Plataforma de Ensino</h3>
+              <p>Sistema de gestão de cursos online com videoconferência.</p>
+
+              <div class="conteudo-projetos-main-container-info-tecnologias">
+                <span class="info-tecnologias">Next.js</span>
+                <span class="info-tecnologias">WebRTC</span>
+                <span class="info-tecnologias">MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="conteudo-projetos-main-container">
+            <div class="conteudo-projetos-main-container-imagem">
+              <img
+                src="https://images.unsplash.com/photo-1497215842964-222b430dc094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHdvcmtzcGFjZSUyMGRlc2lnbnxlbnwxfHx8fDE3Nzk0OTY3NDd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="App de Produtividade"
+                class="conteudo-projetos-main-container-imagem"
+              />
+            </div>
+            <div class="conteudo-projetos-main-container-info">
+              <h3>Site Corporativo</h3>
+              <p>
+                Website institucional com CMS personalizado e SEO otimizado.
+              </p>
+
+              <div class="conteudo-projetos-main-container-info-tecnologias">
+                <span class="info-tecnologias">WordPress</span>
+                <span class="info-tecnologias">PHP</span>
+                <span class="info-tecnologias">SEO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="conteudo-projetos-main-container">
+            <div class="conteudo-projetos-main-container-imagem">
+              <img
+                src="https://images.unsplash.com/photo-1496664444929-8c75efb9546f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxjcmVhdGl2ZSUyMHdvcmtzcGFjZSUyMGRlc2lnbnxlbnwxfHx8fDE3Nzk0OTY3NDd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://images.unsplash.com/photo-1496664444929-8c75efb9546f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxjcmVhdGl2ZSUyMHdvcmtzcGFjZSUyMGRlc2lnbnxlbnwxfHx8fDE3Nzk0OTY3NDd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Sistema de Reservas"
+                class="conteudo-projetos-main-container-imagem"
+              />
+            </div>
+            <div class="conteudo-projetos-main-container-info">
+              <h3>Sistema de Reservas Corporativo</h3>
+              <p>Aplicação para agendamento e gestão de reservas online.</p>
+
+              <div class="conteudo-projetos-main-container-info-tecnologias">
+                <span class="info-tecnologias">Angular</span>
+                <span class="info-tecnologias">MySQL</span>
+                <span class="info-tecnologias">AWS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="conteudo-feedback" id="feedbacks">
+        <div class="conteudo-feedback-header">
+          <h2>Feedbacks</h2>
+          <p>Depoimentos de quem já trabalhou comigo</p>
+        </div>
+
+        <div class="conteudo-feedback-main">
+          <div class="conteudo-feedback-main-container">
+            <div class="conteudo-feedback-main-container-comentario">
+              <div class="feedback-stars-container">
+                <img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                />
+              </div>
+              <p>
+                "Trabalho excepcional! Entregou o projeto antes do prazo e
+                superou todas as expectativas. Altamente recomendado!"
+              </p>
+            </div>
+
+            <div class="conteudo-feedback-main-container-comentario-usuario">
+              <span><strong>Maria Silva</strong></span>
+              <span>CEO, tech Startup</span>
+            </div>
+          </div>
+
+          <div class="conteudo-feedback-main-container">
+            <div class="conteudo-feedback-main-container-comentario">
+              <div class="feedback-stars-container">
+                <img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                />
+              </div>
+              <p>
+                "Profissional extremamente competente e dedicado. A comunicação
+                foi excelente durante todo o projeto."
+              </p>
+            </div>
+
+            <div class="conteudo-feedback-main-container-comentario-usuario">
+              <span><strong>João Santos</strong></span>
+              <span>Gerente de Produto</span>
+            </div>
+          </div>
+
+          <div class="conteudo-feedback-main-container">
+            <div class="conteudo-feedback-main-container-comentario">
+              <div class="feedback-stars-container">
+                <img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                /><img
+                  src="./images/stars_icon.png"
+                  alt="Estrelas de avaliação"
+                  class="feedback-imagem-avaliacao"
+                />
+              </div>
+              <p>
+                "Transformou nossa visão em realidade. O site ficou incrível e
+                os resultados superaram nossas metas!"
+              </p>
+            </div>
+
+            <div class="conteudo-feedback-main-container-comentario-usuario">
+              <span><strong>Ana Costa</strong></span>
+              <span>Diretora de Marketing</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="conteudo-contato" id="contato">
+        <div class="conteudo-contato-header">
+          <h2>Vamos conversar?</h2>
+          <p>Estou disponível para novos projetos e oportunidades</p>
+        </div>
+
+        <div class="conteudo-contato-container">
+          <div class="conteudo-contato-container-form">
+            <form
+              method="get"
+              class="conteudo-contato-container-form-conjunto"
+            >
+              <label for="name">Nome</label>
+              <input
+                type="text"
+                placeholder="Seu nome"
+                name="name"
+                class="contato-form-input"
+              />
+
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="seu@email.com"
+                class="contato-form-input"
+              />
+
+              <label for="assunto">Assunto</label>
+              <input
+                type="text"
+                name="assunto"
+                placeholder="Sobre o que gostaria de falar?"
+                class="contato-form-input"
+              />
+
+              <label for="mensagem">Mensagem</label>
+              <textarea
+                name="mensagem"
+                placeholder="Conte-me sobre seu projeto..."
+                class="contato-form-input"
+              ></textarea>
+
+              <button type="button" class="contato-form-button">
+                Enviar mensagem
+              </button>
+            </form>
+          </div>
+          <div class="conteudo-contato-container-redes">
+            <div class="conteudo-contato-container-redes-email">
+              <img
+                src="./images/email_icon.png"
+                alt="email icone"
+                id="email-icone-contato"
+              />
+              <a href="malito:trkzanna@gmail.com">trkzanna@gmail.com</a>
+            </div>
+            <nav class="conteudo-contato-container-redes-images">
+              <a
+                href="https://www.linkedin.com/in/ana-karoline-turkiewicz-5a5372409"
+              >
+                <img
+                  src="./images/linkedin_icon.png"
+                  alt="Linkedin ícone"
+                  id="linkedin-icone-contato"
+                />
+              </a>
+              <a href="https://github.com/ana-turkiewicz">
+                <img
+                  src="./images/github_icon.png"
+                  alt="Github ícone"
+                  id="github-icone-contato"
+                />
+              </a>
+              <a href="https://www.instagram.com/trkz.anna/">
+                <img
+                  src="./images/instagram_icon.png"
+                  alt="Instagram ícone"
+                  id="instagram-icone-contato"
+                />
+              </a>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-conteudo">
+        <img src="./images/copyright_icon.png" alt="copyright icone" />
+        <span>2026 Portfolio.</span>
+      </div>
+    </footer>
+  </body>
+</html>
